@@ -44,7 +44,11 @@
                 echo "<td>".$row['status']."</td>";
                 echo "<td>".$row['created-at']."</td>";
                 echo "<td>".$row['updated-at']."</td>";
-                echo "</tr>";
+                echo "<td> <a href =editdelete.php?iid=$iid&action=edit>EDIT</a>
+
+                <a href ='editdelete.php?iid=$iid&action=delete'>DELETE</a>
+              
+               </td>";
             }
         ?>
     </table>
